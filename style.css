@@ -29,8 +29,8 @@ body {
 }
 
 .list-item-inline {
-    display:inline-block;
-    padding:0rem 0.5rem;
+    display: inline;
+    padding: 0rem 0.5rem;
 }
 
 .link{
@@ -56,9 +56,9 @@ body {
    
     background-color: var(--primary-color);
     color: white;
-    text-decoration: none;
+    /* text-decoration: none; */
     padding:1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius:1rem;
    
 }
 
