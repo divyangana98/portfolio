@@ -18,8 +18,7 @@ body {
 
 .container-center{
 
-    /* text-align: center; */
-    max-width:600px;
+    max-width: 600px;
     margin:auto;
 }
 
@@ -43,12 +42,14 @@ body {
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+   
 }
 
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border:1px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .navigation {
@@ -81,8 +82,8 @@ body {
 }
 
 .header {
-    padding:2rem;
-    padding-top:2rem;
+    padding:2rem 0rem;
+    
 }  
 
 .header .header-img{
@@ -102,11 +103,15 @@ body {
 }
 
 .section {
-    padding:2rem;
+    padding: 2rem;
 }
 
+/* .section p{
+    padding: 0rem 0rem;
+} */
+
 .section h2{
-    text-align:center;
+    text-align: center;
 }
 
 .ow{
